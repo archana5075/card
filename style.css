@@ -1,0 +1,120 @@
+body {
+  margin: auto 0;
+  font-family: "Roboto", sans-serif;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 108, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 150px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-header {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: -100px;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+  /* Texture Background */
+  background-color: #27b6bd;
+  opacity: 0.8;
+  background-image: linear-gradient(135deg, #1aa1ad 25%, transparent 25%),
+    linear-gradient(225deg, #1aa1ad 25%, transparent 25%),
+    linear-gradient(45deg, #1aa1ad 25%, transparent 25%),
+    linear-gradient(315deg, #1aa1ad 25%, #27b6bd 25%);
+  background-position: 16px 0, 16px 0, 0 0, 0 0;
+  background-size: 16px 16px;
+  background-repeat: repeat;
+}
+
+.div-photo > img {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 5px solid white;
+  position: absolute;
+  left: 35%;
+  top: 60%;
+  z-index: 1;
+}
+.card-address {
+  position: relative;
+  width: 500px;
+  text-align: center;
+  margin-top: 100px;
+  background-color: white;
+  padding: 40px;
+  border-bottom: 1px solid #e7e8e9;
+  overflow: visible;
+  z-index: -1;
+}
+.card-footer {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 15px;
+}
+
+.div-small-box {
+  flex: 20%;
+  padding: 10px;
+  text-align: center;
+  line-height: 15px;
+}
+
+.name {
+  font-size: 0.7em;
+  font-weight: bolder;
+}
+.age {
+  font-size: 0.7em;
+  color: lightgray;
+  font-weight: bold;
+}
+.city {
+  font-size: 1em;
+  color: lightgray;
+  font-weight: bold;
+}
+
+.div-number {
+  padding: 15px;
+  font-size: x-large;
+  font-weight: bold;
+}
+.div-text {
+  font-size: small;
+  color: grey;
+  font-weight: lighter;
+}
