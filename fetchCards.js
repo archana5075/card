@@ -42,12 +42,10 @@ document.getElementById("loadmore").onclick = () => {
   cardsCount.then(function (result) {
     fetchPodcasts(index);
     index++;
-
     //console.log(result.length);
     console.log(index);
-    if (index === result.length) {
+    if (index >= result.length) {
       index = 0;
-      //console.log(index);
       fetchPodcasts(index);
     }
   });

@@ -14,18 +14,17 @@ body {
   box-sizing: border-box;
 }
 
-.container {
+.main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.card {
-  margin: 150px;
-  overflow: hidden;
+.container,
+.btn-load {
+  align-self: center;
+  text-align: center;
   justify-content: center;
-  align-items: center;
+  padding: 30px;
 }
 
 .card-header {
@@ -119,15 +118,13 @@ body {
 }
 
 #loadmore {
-  margin-left: 650px;
-  margin-bottom: 300px;
   width: 200px;
   height: 40px;
   background-color: #1aa1ad;
   color: #e7e8e9;
-  outline: none;
   border-radius: 20px;
-  outline-style: none;
   cursor: pointer;
-  box-shadow: none;
+  font-size: large;
+  border: #e7e8e9 2px solid;
+  box-shadow: #e7e8e9;
 }
