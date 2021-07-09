@@ -1,0 +1,34 @@
+{
+	"cards": [{
+			"id": "1001",
+			"profileImg": "image3.jpeg",
+			"name": "Avery Cross",
+			"age": "26",
+			"city": "London",
+			"followersCount": "180K",
+			"likesCount": "80K",
+			"photosCount": "18K"
+		},
+		{
+			"id": "1002",
+			"profileImg": "image2.jpeg",
+			"name": "John Cross",
+			"age": "28",
+			"city": "New York",
+			"followersCount": "180K",
+			"likesCount": "80K",
+			"photosCount": "18K"
+		},
+        {
+			"id": "1003",
+			"profileImg": "image4.jpeg",
+			"name": "Topher Vallez",
+			"age": "28",
+			"city": "New York",
+			"followersCount": "180K",
+			"likesCount": "80K",
+			"photosCount": "18K"
+		}
+
+	]
+}
