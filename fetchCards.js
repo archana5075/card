@@ -1,5 +1,5 @@
 var index = 0;
-async function fetchPodcasts(index = 0) {
+async function fetchCards(index = 0) {
   const response = await fetch("cards.json");
   let cards = await response.json();
 
@@ -38,15 +38,15 @@ async function fetchPodcasts(index = 0) {
   return cards["cards"];
 }
 document.getElementById("loadmore").onclick = () => {
-  let cardsCount = fetchPodcasts(index);
+  let cardsCount = fetchCards(index);
   cardsCount.then(function (result) {
-    fetchPodcasts(index);
+    fetchCards(index);
     index++;
     //console.log(result.length);
     console.log(index);
     if (index >= result.length) {
       index = 0;
-      fetchPodcasts(index);
+      fetchCards(index);
     }
   });
 };
