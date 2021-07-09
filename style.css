@@ -117,3 +117,17 @@ body {
   color: grey;
   font-weight: lighter;
 }
+
+#loadmore {
+  margin-left: 650px;
+  margin-bottom: 300px;
+  width: 200px;
+  height: 40px;
+  background-color: #1aa1ad;
+  color: #e7e8e9;
+  outline: none;
+  border-radius: 20px;
+  outline-style: none;
+  cursor: pointer;
+  box-shadow: none;
+}

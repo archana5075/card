@@ -12,7 +12,7 @@
 		{
 			"id": "1002",
 			"profileImg": "image2.jpeg",
-			"name": "John Cross",
+			"name": "Elizabeth Cross",
 			"age": "28",
 			"city": "New York",
 			"followersCount": "180K",
@@ -23,6 +23,26 @@
 			"id": "1003",
 			"profileImg": "image4.jpeg",
 			"name": "Topher Vallez",
+			"age": "28",
+			"city": "New York",
+			"followersCount": "180K",
+			"likesCount": "80K",
+			"photosCount": "18K"
+		},
+        {
+			"id": "1004",
+			"profileImg": "image4.jpeg",
+			"name": "Anthony",
+			"age": "28",
+			"city": "New York",
+			"followersCount": "180K",
+			"likesCount": "80K",
+			"photosCount": "18K"
+		},
+        {
+			"id": "1005",
+			"profileImg": "image1.jpeg",
+			"name": "Alan",
 			"age": "28",
 			"city": "New York",
 			"followersCount": "180K",
